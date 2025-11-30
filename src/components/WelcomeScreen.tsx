@@ -1,4 +1,5 @@
 import React from 'react'
+import LogoImage from '../../public/Logo.png'
 
 interface WelcomeScreenProps {
   onStart: () => void
@@ -9,9 +10,17 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
     <div className="w-full max-w-2xl animate-fade-in">
       <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
         <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 p-12 text-center text-white">
-          <div className="text-8xl mb-4 animate-bounce">🐾</div>
+          <img src={LogoImage} alt="Logo" className="h-48 mx-auto mb-4 object-contain" />
           <h1 className="text-5xl font-bold mb-4">Test de Personalidad: Animales Domésticos</h1>
-          <p className="text-xl opacity-90">Descubre qué mascota es perfecta para ti según tu personalidad</p>
+          <p className="text-xl opacity-90 mb-4">Descubre qué mascota es perfecta para ti según tu personalidad</p>
+          <a 
+            href="https://vargascamposrodrig.wixsite.com/huella-digital" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-4 py-2 rounded-full transition-all duration-300 text-sm font-semibold"
+          >
+            🌐 Huella Digital
+          </a>
         </div>
 
         <div className="p-12">

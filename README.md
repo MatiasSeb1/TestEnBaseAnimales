@@ -2,7 +2,7 @@
 
 Un test moderno e interactivo para descubrir qué mascota es perfecta para ti según tu personalidad y estilo de vida.
 
-**🌐 Ver en vivo:** https://matiasseb1.github.io/TestEnBaseAnimales/
+**🌐 Ver** https://matiasseb1.github.io/TestEnBaseAnimales/
 
 ## 🚀 Características
 
